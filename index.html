@@ -106,26 +106,20 @@
 
     <!-- Pop-Up Section Start -->
 
-     <dialog id="issue_modal" class="modal modal-bottom sm:modal-middle">
-        <div class="modal-box max-w-3xl border-t-8 border-indigo-600 p-0 overflow-hidden">
-            <div id="modal-content" class="p-8">
-                </div>
-            <div class="modal-action p-6 bg-slate-50 border-t">
-                <form method="dialog">
-                    <button class="btn bg-indigo-600 text-white border-none px-12">Close</button>
-                </form>
+    <dialog id="issue_modal" class="modal modal-bottom sm:modal-middle backdrop-blur-md">
+    <div class="modal-box p-0 overflow-hidden bg-white shadow-2xl border border-slate-100 rounded-[48px] max-w-2xl">
+        <div id="modal-content" class="p-16 text-left">
             </div>
+        <div class="modal-action p-10 bg-slate-50 border-t border-slate-100 flex justify-end">
+            <form method="dialog">
+                <button class="btn bg-indigo-600 hover:bg-indigo-700 text-white border-none px-16 h-14 rounded-2xl font-black uppercase text-[12px] tracking-widest shadow-xl shadow-indigo-200">Close Details</button>
+            </form>
         </div>
-        <form method="dialog" class="modal-backdrop">
-            <button>close</button>
-        </form>
-    </dialog>
+    </div>
+    <form method="dialog" class="modal-backdrop bg-slate-900/40"><button>close</button></form>
+</dialog>
 
     <!-- Pop-Up Section End -->
-
-   
-
-    
 
     <script src="app.js"></script>
 </body>
