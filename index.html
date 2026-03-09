@@ -15,6 +15,39 @@
 </head>
 <body class="bg-[#F8FAFC] min-h-screen font-sans"></body>
 
+<!-- Login Section Start -->
+
+
+    <section id="login-page" class="flex items-center justify-center min-h-screen px-4">
+        <div class="card w-full max-w-md bg-white shadow-xl border p-8 text-center">
+            <div class="flex justify-center mb-4">
+                <img src="https://cdn-icons-png.flaticon.com/512/25/25231.png" alt="GitHub Logo" class="w-16">
+            </div>
+            <h1 class="text-2xl font-bold text-slate-800">GitHub Issues Tracker</h1>
+            <p class="text-sm text-slate-500 mb-8">Sign in to manage your issues</p>
+            
+            <div class="space-y-4 text-left">
+                <div class="form-control">
+                    <label class="label font-semibold text-slate-700">Username</label>
+                    <input type="text" id="username" placeholder="Enter Username" class="input input-bordered w-full" />
+                </div>
+                <div class="form-control">
+                    <label class="label font-semibold text-slate-700">Password</label>
+                    <input type="password" id="password" placeholder="Enter Password" class="input input-bordered w-full" />
+                </div>
+            </div>
+
+            <button onclick="handleLogin()" class="btn btn-primary mt-8 w-full bg-indigo-600 hover:bg-indigo-700 border-none text-white">Sign In</button>
+            
+            <div class="mt-8 p-4 bg-slate-50 rounded-lg border border-dashed border-slate-300">
+                <p class="text-xs font-bold text-slate-600 mb-1 underline">Demo Credentials</p>
+                <p class="text-xs text-slate-500">Username: <span class="text-indigo-600">admin</span></p>
+                <p class="text-xs text-slate-500">Password: <span class="text-indigo-600">admin123</span></p>
+            </div>
+        </div>
+    </section>
+
+    <!-- Login Section End -->
 
     
 
